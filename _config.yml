@@ -2,7 +2,7 @@ title:              Experimental Life
 email:              cintamukti818@gmail.com
 description:        A test for Clean-blog
 author:             Athena Chu
-baseurl:            "https://github.com/AthenACHY/AthenACHY.github.io"
+baseurl:            "/AthenACHY.github.io"
 url:                "https://athenachy.github.io"
 
 # Social Profiles
