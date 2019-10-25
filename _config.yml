@@ -3,8 +3,8 @@ email:              cintamukti818@gmail.com
 description:        A test for Clean-blog
 author:             Athena Chu
 baseurl:            "/AthenACHY.github.io"
-url:                "https://athenachy.github.io"
-
+#url:                "https://athenachy.github.io"
+avatar: https://avatars3.githubusercontent.com/u/32728871?s=40&v=4
 # Social Profiles
 #twitter_username:   SBootstrap
 #github_username:    BlackrockDigital
