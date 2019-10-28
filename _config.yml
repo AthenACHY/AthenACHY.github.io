@@ -27,3 +27,4 @@ plugins:
 collections:
   stories:
     output: true
+    permalink: /stories/:path/
