@@ -8,7 +8,7 @@ category: story
 {% for item in site.stories %}
 
 <article class="story">
-  <a href="{{ item.url | prepend: site.baseurl | replace: '//', '/' }}">
+  <a href="{{ item.url }}">{{ item.title }}</a>
     <h2 class="story-title">{{ item.title }}</h2>
     {% if item.subtitle %}
     <h3 class="story-subtitle">{{ item.subtitle }}</h3>
