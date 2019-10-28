@@ -7,7 +7,7 @@ category: story
 
 {% for post in paginator.posts %}
 
-<article class="book-notes">
+<article class="story">
   <a href="{{ story.url | prepend: site.baseurl | replace: '//', '/' }}">
     <h2 class="story-title">{{ story.title }}</h2>
     {% if story.subtitle %}
