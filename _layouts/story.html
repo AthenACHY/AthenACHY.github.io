@@ -1,5 +1,6 @@
----
+--
 layout: default
+background: '/img/20181028_120218.jpg' 
 ---
 
 <!-- Page Header -->
@@ -12,25 +13,43 @@ layout: default
     <div class="container">
       <div class="row">
         <div class="col-lg-8 col-md-10 mx-auto">
-          <div class="page-heading">
+          <div class="post-heading">
             <h1>{{ page.title }}</h1>
-            {% if page.description %}
-            <span class="subheading">{{ page.description }}</span>
+            {% if page.subtitle %}
+            <h2 class="subheading">{{ page.subtitle }}</h2>
             {% endif %}
+            <span class="meta">Posted by
+              <a href="#">{% if page.author %}{{ page.author }}{% else %}{{ site.author }}{% endif %}</a>
+              on {{ page.date | date: '%B %d, %Y' }} &middot; {% include read_time.html
+              content=page.content %}
+            </span>
           </div>
         </div>
       </div>
     </div>
   </header>
-	
-<div id="story" class="container">
 
-	<div class="postthumb"><img src="/thumbnails/{{ page.thumbnail }}" /></div>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-md-10 mx-auto">
 
-	<h1>{{ page.title }}</h1>
+        {{ content }}
 
-	<div class="col-lg-8 col-md-10 mx-auto">
-	{{ content }}
-	</div>
+        <hr>
 
-</div>
+        <div class="clearfix">
+
+          {% if page.previous.url %}
+          <a class="btn btn-primary float-left" href="{{ page.previous.url | prepend: site.baseurl | replace: '//', '/' }}" data-toggle="tooltip" data-placement="top" title="{{ page.previous.title }}">&larr; Previous<span class="d-none d-md-inline">
+              Post</span></a>
+          {% endif %}
+          {% if page.next.url %}
+          <a class="btn btn-primary float-right" href="{{ page.next.url | prepend: site.baseurl | replace: '//', '/' }}" data-toggle="tooltip" data-placement="top" title="{{ page.next.title }}">Next<span class="d-none d-md-inline">
+              Post</span> &rarr;</a>
+          {% endif %}
+
+        </div>
+
+      </div>
+    </div>
+  </div>
