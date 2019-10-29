@@ -9,7 +9,7 @@ background: '/img/20181028_120218.jpg'
   <header class="masthead">
     {% endif %}  -->
 <p align="right">
-<div style="background-color: #cfc ; padding: 10px; border: 1px solid green;"> 
+<div style="background-color: black ; padding: 30px; "> 
 </div>
 <header>
     <div class="overlay"></div>
@@ -21,10 +21,10 @@ background: '/img/20181028_120218.jpg'
        <!--     {% if page.subtitle %}
             <h2 class="subheading">{{ page.subtitle }}</h2>
             {% endif %} -->
-            <span class="meta">Posted by
-              <a href="#">{% if page.author %}{{ page.author }}{% else %}{{ site.author }}{% endif %}</a>
-            <!--  on {{ page.date | date: '%B %d, %Y' }} &middot; {% include read_time.html 
-              content=page.content %} -->
+            <span class="meta">
+            <!--   <a href="#">{% if page.author %}{{ page.author }}{% else %}{{ site.author }}{% endif %}</a> -->
+             on {{ page.date | date: '%B %d, %Y' }} &middot; {% include read_time.html 
+              content=page.content %} 
             </span>
           </div>
         </div>
