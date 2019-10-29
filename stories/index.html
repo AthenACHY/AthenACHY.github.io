@@ -10,11 +10,11 @@ category: story
 <article class="story">
   <a href="{{ item.url }}">{{ item.title }}</a>
     <h2 class="story-title">{{ item.title }}</h2>
-    {% if item.subtitle %}
+    <!-- {% if item.subtitle %}
     <h3 class="story-subtitle">{{ item.subtitle }}</h3>
     {% else %}
     <h3 class="story-subtitle">{{ item.excerpt | strip_html | truncatewords: 15 }}</h3>
-    {% endif %}
+    {% endif %} -->
   </a>
 </article>
 
