@@ -50,10 +50,9 @@ plots <- lapply(X = plots, FUN = function(x) x + theme(legend.position = "top") 
 CombinePlots(plots)
 rm(pancreas.data, pancreas.integrated, pancreas.list)
 ~~~
-
+####Seurat UMAP from anchoring 500 hvg genes
 <figure>
 <p align="left">
-<p> Seurat UMAP from anchoring 500 hvg genes </p>
 <img src="/img/posts/2019_12_13_figs/Seurat_integrate_v3.png" width="800" height="400" title="Seurat UMAP from anchoring 500 hvg genes">
 </p>
 </figure>
@@ -100,9 +99,9 @@ p2<-exp_tab %>% ggplot((aes(x=x, y=y, colour=celltype)))+ geom_point()+theme(leg
 plot_grid(p1, p2 )
 ~~~ 
 
+####fastMNN tSNE from the 50 PCs derived from fastMNN
 <figure>
 <p align="left">
-
 <img src="/img/posts/2019_12_13_figs/celltype_fastMNN.png" width="800" height="400" title="fastMNN tSNE from the 50 PCs derived from fastMNN">
 </p>
 </figure>
@@ -175,23 +174,23 @@ p1<-limma_tsne %>% ggplot((aes(x=x, y=y, colour=tech)))+ geom_point()+theme(lege
 p2<-limma_tsne%>% ggplot((aes(x=x, y=y, colour=celltype)))+ geom_point()+theme(legend.position = "top")
 plot_grid(p1, p2 )
 ~~~
-
+####ComBat tSNE from the 50 PCs build from 2000 top hvg
 <figure>
 <p align="left">
-
 <img src="/img/posts/2019_12_13_figs/Combat.png" width="800" height="400" title="ComBat tSNE from the 50 PCs build from 2000 top hvg">
 </p>
 </figure>
+
+####limma tSNE from the 500 top hvg 
 <figure>
 <p align="left">
-
 <img src="/img/posts/2019_12_13_figs/Limma_normalised.png" width="800" height="400" title="limma tSNE from the 500 top hvg">
 </p>
 </figure>
 
 We can clearly see that both methods did a poor job in integrating the data across all cell types. That is kinda surprising considering how popular they are. 
 
-### factorization with liger
+###factorization with liger
 [liger](https://macoskolab.github.io/liger/walkthrough_pbmc.html) uses NNMF to identify shared metagenes across dataset. Then the integration was done by putting cells with similar loadings to the metagenes into the same cluster (pretty much?). 
 
 ~~~R
@@ -228,10 +227,9 @@ p1<-liger_tsne %>% ggplot((aes(x=x, y=y, colour=tech)))+ geom_point()+theme(lege
 p2<-liger_tsne%>% ggplot((aes(x=x, y=y, colour=celltype)))+ geom_point()+theme(legend.position = "top")
 plot_grid(p1, p2 )
 ~~~
-
+####liger tSNE from the 25 metagenes
 <figure>
 <p align="left">
-
 <img src="/img/posts/2019_12_13_figs/liger_results.png" width="800" height="400" title="liger tSNE from the 25 metagenes">
 </p>
 </figure>
@@ -242,7 +240,7 @@ I have to say the liger performance is the worst; some cell types got mixed up a
 
 ### BEER
 
-Finally, I tried this newly published method [BEER](https://github.com/jumphone/BEER#II-Combine-Multiple-Batches). The idea behind it is neat, it looked for highly correlated PC across dataset, and only use those PC for clustering. It even has the potential to combine differently type of experiment such as acATAC-seq and scRNA-seq.
+Finally, I tried this newly published method [BEER](https://github.com/jumphone/BEER#II-Combine-Multiple-Batches). The idea behind it is neat, it looked for highly correlated PCs across dataset, and only use those PCs for clustering. It even has the potential to combine differently type of experiment such as acATAC-seq and scRNA-seq.
 
 ~~~R
 library(Seurat)
@@ -266,19 +264,16 @@ plots <- lapply(X = plots, FUN = function(x) x + theme(legend.position = "top") 
                   guides(color = guide_legend(nrow = 3, byrow = TRUE, override.aes = list(size = 3))))
 CombinePlots(plots)
 ~~~
-
+####BEER UMAP from 44 correlated PCs
 <figure>
 <p align="left">
-
-<img src="/img/posts/2019_12_13_figs/BEER.png" width="800" height="400" title="liger tSNE from the 25 metagenes">
+<img src="/img/posts/2019_12_13_figs/BEER.png" width="800" height="400" title="BEER UMAP from 44 correlated PCs">
 </p>
 </figure>
 <figure>
 <p align="left">
 
-BEER found 44 highly correlated PCS and used them for integration. It returned the corrected expression and final integrated PCA in a Seurat object. I just needed to directly run UMAP and I have to say the clustering is comparable to Seurat; still the alpha cells are not clustered well. It seems like a persisting challenge for all the packages tested so far.
-
-
+BEER found 44 highly correlated PCs and used them for integration. It returned the corrected expression and final integrated PCA in a Seurat object. I just needed to directly run UMAP and I have to say the clustering is comparable to Seurat; still the alpha cells are not clustered well. It seems like a persisting challenge for all the packages tested so far.
 
 ### Conclusion
 We examined a few integration methods and so far Seurat integration pipeline did best. fastMNN and BEER performed well and provide the full corrected expression matrix, which may be useful for other downstream analyses. The main limitation for all of these methods is that they expect certain overlaps of cell types among data. This goes against some of the experimental designs that cells were FACS sorted to different batches and sequenced separately. Hopefully, the samples could be pooled for sequencing in future experiments using the new antibodies-tagging procedures such as ECCITE-seq to circumvent the problem.
