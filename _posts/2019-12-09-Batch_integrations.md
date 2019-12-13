@@ -54,7 +54,7 @@ rm(pancreas.data, pancreas.integrated, pancreas.list)
 <figure>
 <p align="left">
 
-<img src="/img/posts/2019_12_13_figs/Seurat_integrate_v3.png" width="600" height="300" title="Seurat UMAP from anchoring 500 hvg genes">
+<img src="/img/posts/2019_12_13_figs/Seurat_integrate_v3.png" width="800" height="400" title="Seurat UMAP from anchoring 500 hvg genes">
 </p>
 </figure>
 
@@ -103,7 +103,7 @@ plot_grid(p1, p2 )
 <figure>
 <p align="left">
 
-<img src="/img/posts/2019_12_13_figs/celltype_fastMNN.png" width="600" height="300" title="fastMNN tSNE from the 50 PCs derived from fastMNN">
+<img src="/img/posts/2019_12_13_figs/celltype_fastMNN.png" width="800" height="400" title="fastMNN tSNE from the 50 PCs derived from fastMNN">
 </p>
 </figure>
 
@@ -179,13 +179,13 @@ plot_grid(p1, p2 )
 <figure>
 <p align="left">
 
-<img src="/img/posts/2019_12_13_figs/Combat.png" width="600" height="300" title="ComBat tSNE from the 50 PCs build from 2000 top hvg">
+<img src="/img/posts/2019_12_13_figs/Combat.png" width="800" height="400" title="ComBat tSNE from the 50 PCs build from 2000 top hvg">
 </p>
 </figure>
 <figure>
 <p align="left">
 
-<img src="/img/posts/2019_12_13_figs/Limma_normalised.png" width="600" height="300" title="limma tSNE from the 500 top hvg">
+<img src="/img/posts/2019_12_13_figs/Limma_normalised.png" width="800" height="400" title="limma tSNE from the 500 top hvg">
 </p>
 </figure>
 
@@ -232,7 +232,7 @@ plot_grid(p1, p2 )
 <figure>
 <p align="left">
 
-<img src="/img/posts/2019_12_13_figs/liger_results.png" width="600" height="300" title="liger tSNE from the 25 metagenes">
+<img src="/img/posts/2019_12_13_figs/liger_results.png" width="800" height="400" title="liger tSNE from the 25 metagenes">
 </p>
 </figure>
 <figure>
@@ -270,7 +270,7 @@ CombinePlots(plots)
 <figure>
 <p align="left">
 
-<img src="/img/posts/2019_12_13_figs/BEER.png" width="600" height="300" title="liger tSNE from the 25 metagenes">
+<img src="/img/posts/2019_12_13_figs/BEER.png" width="800" height="400" title="liger tSNE from the 25 metagenes">
 </p>
 </figure>
 <figure>
