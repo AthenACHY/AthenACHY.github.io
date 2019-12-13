@@ -185,7 +185,7 @@ plot_grid(p1, p2 )
 <figure>
 <p align="left">
 
-<img src="/img/posts/2019_12_13_figs/Limma_normalised" width="600" height="300" title="limma tSNE from the 500 top hvg">
+<img src="/img/posts/2019_12_13_figs/Limma_normalised.png" width="600" height="300" title="limma tSNE from the 500 top hvg">
 </p>
 </figure>
 
@@ -232,7 +232,7 @@ plot_grid(p1, p2 )
 <figure>
 <p align="left">
 
-<img src="/img/posts/2019_12_13_figs/liger_results" width="600" height="300" title="liger tSNE from the 25 metagenes">
+<img src="/img/posts/2019_12_13_figs/liger_results.png" width="600" height="300" title="liger tSNE from the 25 metagenes">
 </p>
 </figure>
 <figure>
@@ -267,7 +267,18 @@ plots <- lapply(X = plots, FUN = function(x) x + theme(legend.position = "top") 
 CombinePlots(plots)
 ~~~
 
+<figure>
+<p align="left">
+
+<img src="/img/posts/2019_12_13_figs/BEER.png" width="600" height="300" title="liger tSNE from the 25 metagenes">
+</p>
+</figure>
+<figure>
+<p align="left">
+
 BEER found 44 highly correlated PCS and used them for integration. It returned the corrected expression and final integrated PCA in a Seurat object. I just needed to directly run UMAP and I have to say the clustering is comparable to Seurat; still the alpha cells are not clustered well. It seems like a persisting challenge for all the packages tested so far.
+
+
 
 ### Conclusion
 We examined a few integration methods and so far Seurat integration pipeline did best. fastMNN and BEER performed well and provide the full corrected expression matrix, which may be useful for other downstream analyses. The main limitation for all of these methods is that they expect certain overlaps of cell types among data. This goes against some of the experimental designs that cells were FACS sorted to different batches and sequenced separately. Hopefully, the samples could be pooled for sequencing in future experiments using the new antibodies-tagging procedures such as ECCITE-seq to circumvent the problem.
