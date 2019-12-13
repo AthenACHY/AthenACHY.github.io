@@ -50,7 +50,7 @@ plots <- lapply(X = plots, FUN = function(x) x + theme(legend.position = "top") 
 CombinePlots(plots)
 rm(pancreas.data, pancreas.integrated, pancreas.list)
 ~~~
-####Seurat UMAP from anchoring 500 hvg genes
+#### Seurat UMAP from anchoring 500 hvg genes
 <figure>
 <p align="left">
 <img src="/img/posts/2019_12_13_figs/Seurat_integrate_v3.png" width="800" height="400" title="Seurat UMAP from anchoring 500 hvg genes">
@@ -99,7 +99,7 @@ p2<-exp_tab %>% ggplot((aes(x=x, y=y, colour=celltype)))+ geom_point()+theme(leg
 plot_grid(p1, p2 )
 ~~~ 
 
-####fastMNN tSNE from the 50 PCs derived from fastMNN
+#### fastMNN tSNE from the 50 PCs derived from fastMNN
 <figure>
 <p align="left">
 <img src="/img/posts/2019_12_13_figs/celltype_fastMNN.png" width="800" height="400" title="fastMNN tSNE from the 50 PCs derived from fastMNN">
@@ -111,7 +111,7 @@ The good thing about fastMNN is that it returns the corrected expression values 
 The clustering is decent except for the alpha cells, which is the biggest group of cells in the dataset. Maybe it is also the noisiest (more cells, more diversity?) subpopulation that compromised the fastMNN.
 Well, some cells end up having negative expression values; probably because they had low RNA counts to begin with. The author says that it is okay as the expression values shall not be interpreted as logcounts, and I guess we can still calculate DE via these corrected expression values?
 
-###Combat and limma
+### Combat and limma
 Next we turn to the other two popular correction methods, [ComBat()](https://bioconductor.org/packages/release/bioc/vignettes/sva/inst/doc/sva.pdf) from the SVA package and removeBatchEffect() from [limma](https://academic.oup.com/nar/article/43/7/e47/2414268). Limma is just a correction of each gene per batch using a linear model with a design matrix. ComBat removes the batch effects by modelling and removing the effect of the latent factor. Both limma and ComBat required log and normalised data from input. In ComBat, genes needed to be further filtered with expression variance bigger than 0.
 
 ~~~R
@@ -174,7 +174,7 @@ p1<-limma_tsne %>% ggplot((aes(x=x, y=y, colour=tech)))+ geom_point()+theme(lege
 p2<-limma_tsne%>% ggplot((aes(x=x, y=y, colour=celltype)))+ geom_point()+theme(legend.position = "top")
 plot_grid(p1, p2 )
 ~~~
-####ComBat tSNE from the 50 PCs build from 2000 top hvg
+#### ComBat tSNE from the 50 PCs build from 2000 top hvg
 <figure>
 <p align="left">
 <img src="/img/posts/2019_12_13_figs/Combat.png" width="800" height="400" title="ComBat tSNE from the 50 PCs build from 2000 top hvg">
@@ -190,7 +190,7 @@ plot_grid(p1, p2 )
 
 We can clearly see that both methods did a poor job in integrating the data across all cell types. That is kinda surprising considering how popular they are. 
 
-###factorization with liger
+### factorization with liger
 [liger](https://macoskolab.github.io/liger/walkthrough_pbmc.html) uses NNMF to identify shared metagenes across dataset. Then the integration was done by putting cells with similar loadings to the metagenes into the same cluster (pretty much?). 
 
 ~~~R
@@ -227,7 +227,7 @@ p1<-liger_tsne %>% ggplot((aes(x=x, y=y, colour=tech)))+ geom_point()+theme(lege
 p2<-liger_tsne%>% ggplot((aes(x=x, y=y, colour=celltype)))+ geom_point()+theme(legend.position = "top")
 plot_grid(p1, p2 )
 ~~~
-####liger tSNE from the 25 metagenes
+#### liger tSNE from the 25 metagenes
 <figure>
 <p align="left">
 <img src="/img/posts/2019_12_13_figs/liger_results.png" width="800" height="400" title="liger tSNE from the 25 metagenes">
@@ -264,7 +264,7 @@ plots <- lapply(X = plots, FUN = function(x) x + theme(legend.position = "top") 
                   guides(color = guide_legend(nrow = 3, byrow = TRUE, override.aes = list(size = 3))))
 CombinePlots(plots)
 ~~~
-####BEER UMAP from 44 correlated PCs
+#### BEER UMAP from 44 correlated PCs
 <figure>
 <p align="left">
 <img src="/img/posts/2019_12_13_figs/BEER.png" width="800" height="400" title="BEER UMAP from 44 correlated PCs">
