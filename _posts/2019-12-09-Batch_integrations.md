@@ -53,7 +53,7 @@ rm(pancreas.data, pancreas.integrated, pancreas.list)
 
 <figure>
 <p align="left">
-
+<p> Seurat UMAP from anchoring 500 hvg genes </p>
 <img src="/img/posts/2019_12_13_figs/Seurat_integrate_v3.png" width="800" height="400" title="Seurat UMAP from anchoring 500 hvg genes">
 </p>
 </figure>
