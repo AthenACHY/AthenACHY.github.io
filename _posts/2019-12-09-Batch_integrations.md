@@ -181,7 +181,7 @@ plot_grid(p1, p2 )
 </p>
 </figure>
 
-#### *limma* tSNE from the 500 top hvg 
+#### _limma_ tSNE from the 500 top hvg 
 <figure>
 <p align="left">
 <img src="/img/posts/2019_12_13_figs/Limma_normalised.png" width="800" height="400" title="limma tSNE from the 500 top hvg">
@@ -227,14 +227,14 @@ p1<-liger_tsne %>% ggplot((aes(x=x, y=y, colour=tech)))+ geom_point()+theme(lege
 p2<-liger_tsne%>% ggplot((aes(x=x, y=y, colour=celltype)))+ geom_point()+theme(legend.position = "top")
 plot_grid(p1, p2 )
 ~~~
+
 #### liger tSNE from the 25 metagenes
 <figure>
 <p align="left">
 <img src="/img/posts/2019_12_13_figs/liger_results.png" width="800" height="400" title="liger tSNE from the 25 metagenes">
 </p>
 </figure>
-<figure>
-<p align="left">
+
 
 I have to say the liger performance is the worst; some cell types got mixed up and the clusterings of the beta cells scatter across the plot. There might be room for improvements if I try different k (metagenes) to model.	
 
