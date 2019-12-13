@@ -14,7 +14,7 @@ My urge to think more deeply about integration stemmed from my colleague pointin
 
 So I decided to look into what people have done so far about comparing results from different technologies, especially about integration. Here, I have tried out Seurat, Combat, scran fastMNN, limma removebatcheffect(), liger and BEER, to see how they perform on integrating the benchmarking SCRNA-seq data of the pancreas generated from CelSeq, CelSeq2 and SMART-Seq2 ([from Seurat tutorial](https://www.dropbox.com/s/1zxbn92y5du9pu0/pancreas_v3_files.tar.gz?dl=1)). I aimed to find out 1: what integration has achieved from these methods? 2: how the integrated data is used in the downstream analysis.
 
-### 1. Seurat integration pipeline (v3)
+### Seurat integration pipeline (v3)
 Of course, starting with the easiest, we first look into the [Seurat integration pipeline](https://www.cell.com/cell/fulltext/S0092-8674(19)30559-8#secsectitle0075). In summary, Seurat use the hvg found in multiple experiments, identify the "anchors" ('two cells (with one cell from each dataset), that we predict to originate from a common biological state.'), find the genes with shared CCA loadings using the "anchors" and then put the KNN-neighbors between anchors together during the dimension reduction steps. In the paper, it stresses that the step of anchors identification is key to successful integration and lets see what Seurat returns from the dataset.
 
 ~~~R
@@ -111,7 +111,7 @@ The good thing about fastMNN is that it returns the corrected expression values 
 The clustering is decent except for the alpha cells, which is the biggest group of cells in the dataset. Maybe it is also the noisiest (more cells, more diversity?) subpopulation that compromised the fastMNN.
 Well, some cells end up having negative expression values; probably because they had low RNA counts to begin with. The author says that it is okay as the expression values shall not be interpreted as logcounts, and I guess we can still calculate DE via these corrected expression values?
 
-### Combat and limma
+### Combat and _limma_
 Next we turn to the other two popular correction methods, [ComBat()](https://bioconductor.org/packages/release/bioc/vignettes/sva/inst/doc/sva.pdf) from the SVA package and removeBatchEffect() from [limma](https://academic.oup.com/nar/article/43/7/e47/2414268). Limma is just a correction of each gene per batch using a linear model with a design matrix. ComBat removes the batch effects by modelling and removing the effect of the latent factor. Both limma and ComBat required log and normalised data from input. In ComBat, genes needed to be further filtered with expression variance bigger than 0.
 
 ~~~R
