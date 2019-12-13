@@ -181,7 +181,7 @@ plot_grid(p1, p2 )
 </p>
 </figure>
 
-####limma tSNE from the 500 top hvg 
+#### limma tSNE from the 500 top hvg 
 <figure>
 <p align="left">
 <img src="/img/posts/2019_12_13_figs/Limma_normalised.png" width="800" height="400" title="limma tSNE from the 500 top hvg">
