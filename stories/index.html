@@ -4,8 +4,8 @@ title: Book notes
 background: '/img/20181028_120218.jpg'
 category: story
 ---
-
-{% for item in site.stories reversed %}
+{% assign stories = site.stories | sort: 'date' | reverse %}
+{% for item in site.stories %}
 
 <article class="story">
  <!--  <h2> 
