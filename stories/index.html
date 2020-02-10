@@ -17,10 +17,9 @@ category: story
     <h3 class="story-subtitle">{{ item.excerpt | strip_html | truncatewords: 15 }}</h3>
     {% endif %} -->
 
-    <div class="container">
-          <div class="col-md-6 col-lg-5 ml-auto d-flex align-items-center mt-4 mt-md-0">
+    <div class="container">          
         <a href="{{ item.url }}" ><img src="{{ item.thumbnail }}" align="left" hspace="6" style="max-width:100px;" />
-
+        <div class="col-md-6 col-lg-5 ml-auto d-flex align-items-center mt-4 mt-md-0">
          <a style="width:400px" font-size:20 href="{{ item.url }}" >{{ item.title }}</a>  
          </div>
 
