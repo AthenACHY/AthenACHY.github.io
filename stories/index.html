@@ -5,7 +5,7 @@ background: '/img/20181028_120218.jpg'
 category: story
 ---
 {% assign stories = site.stories | sort: 'date' | reverse %}
-{% for item in site.stories %}
+{% for item in site.stories reversed %}
 
 <article class="story">
  <!--  <h2> 
