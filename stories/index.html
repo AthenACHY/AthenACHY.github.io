@@ -17,15 +17,14 @@ category: story
     <h3 class="story-subtitle">{{ item.excerpt | strip_html | truncatewords: 15 }}</h3>
     {% endif %} -->
 
-    <div class="clearfix">
+    <div>
     <h2>  
         <a href="{{ item.url }}" ><img src="{{ item.thumbnail }}" align="top" hspace="20" style="max-width:100px;" />
          <a style="width:500px" font-size:20 href="{{ item.url }}" >{{ item.title }}</a>  
          </h2>
     </div>
-<div style="width:100%">
-<a>
-</a> 
+<div class="clearfix">
+
 </div> 
 
 </article>
