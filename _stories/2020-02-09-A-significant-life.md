@@ -1,6 +1,7 @@
 ---
 layout: story
 title: Todd May - A significant life
+thumbnail: '/img/story/A_significant_life.jpg'
 ---
 
 How to rate a life's meaningfulness?
