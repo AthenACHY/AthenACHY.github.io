@@ -1,6 +1,6 @@
 ---
 layout: story
-title: Todd May: A significant life
+title: Todd May - A significant life
 thumbnail: '/img/story/A_significant_life.jpg'
 ---
 
