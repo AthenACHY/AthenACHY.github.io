@@ -23,7 +23,7 @@ There were also a lot of life lessons and powerful quotes in the book. Sometimes
 
 "We accept the live we think we deserve"
 
-"I would die for you but i qont live fore you"
+"I would die for you but i wont live for you"
 
 ###And the poem in the book:
 
