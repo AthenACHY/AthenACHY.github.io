@@ -19,13 +19,13 @@ And finally in the last letter, he has grew a sense of composure to know that he
 
 There were also a lot of life lessons and powerful quotes in the book. Sometimes I wonder US high-schoolers seem to go through a lot of adult situations; my uneventful life can easily take 10 more years to do through this kind of relationshit compared to what happened to them in 2-3 years. 
 
-###The quotes I like 
+### The quotes I like 
 
 "We accept the live we think we deserve"
 
 "I would die for you but i wont live for you"
 
-###And the poem in the book:
+### And the poem in the book:
 
 Once on a yellow piece of paper with green lines<br/>
 he wrote a poem<br/>
