@@ -1,6 +1,6 @@
 ---
 layout: story
-title: Andrew Leigh - Randomistas: How Radical Researchers Changed Our World
+title: 'Andrew Leigh - Randomistas: How Radical Researchers Changed Our World'
 thumbnail: '/img/story/Randomistas.jpg'
 ---
 
