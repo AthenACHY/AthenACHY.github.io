@@ -24,7 +24,4 @@ Randomistas also showed how easy it is to set up randomized trials with today's 
 
 On the other hands, The Why axis has probed into the issues of discriminations and showed that by gaining the information of the randomized trials, we as individual have a chance to correct the bias and restore justice. It also emphasied the "economic discrimination", the act of poor treatment to a group of people based on economic motives, rather than animus from conventional beliefs.
 
-Both books have showed that sometimes we gained a lot of insights from the empirical data; we shall not shy away from setting up experiments as it is easy in the nowadays big-data era. These data may not fit well with textbook-theory or conventional wisdoms; they are messy and failed many assumptions. But these data serve as a starting point to dive into the complexity of reality, which is essential in improving the rigor and power of our research.
-
-
-
+Both books have showed that sometimes we gained a lot of insights from the empirical data; we shall not shy away from setting up experiments as it is easy in the nowadays big-data era. These data may not fit well with textbook-theory or conventional wisdoms; they are messy and failed many assumptions. But these data serve as a starting point to dive into the complexity of reality, which is essential in improving the rigor and power of our understandings of the world.
