@@ -36,12 +36,9 @@ These details are only brought to our attention by Keen's insights; as ordinary 
 
 ### So why do we accept the nonsense?
 From chapter 7 onwards, Keen described the **"Assumptions don't matter"** notion introduced by Friedman to defend the problematic classical economical models.
-<blockquote>
-<p>	
+
 >The more significant the theory, the more unrealistic the assumptions.  
 >>Milton Friedman
-</p>
-</blockquote>
 
 This part of the book has turned into a historical account of how economists preserved the problematic models by reinterpretations, modifying part of the assumptions, ignore the problems as the model appeared to describe the real-world data reasonably well, or reframe the economic concepts to a philosophical one. 
 
