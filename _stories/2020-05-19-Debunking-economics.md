@@ -10,11 +10,11 @@ Illuminate the part of economics that makes no sense to me.
 This book is a recommendation to help me with my dis-orientations in econ-related news and policies, especially those fiercely defend capitalism.
 Arguments usually end in opinions about my lack of knowledge or understandings about economics,
 
-*"Capitalism works, regardless of the problems it inevitably caused. This is econ 101."*
+*\"Capitalism works, regardless of the problems it inevitably caused. This is econ 101.\"*
 
 Steve Keen made it very clear that this book is for the confused, those questions why public policies put so much weight on economics theories. He invited everyone to join the discussion and examine the mainstream classical-economic models, and exposed the poor assumptions and maths behind these influential models.
 
-This is the book that explain why these theories, driving important government policies, can't reconcile with our "gut feelings".  
+This is the book that explain why these theories, driving important government policies, can't reconcile with our \"gut feelings\".  
 
 ###Have you taken Econ 101?
 
