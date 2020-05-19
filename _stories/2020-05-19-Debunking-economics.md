@@ -4,7 +4,7 @@ title: Steve Keen - Debunking Economics
 thumbnail: '/img/story/Debunking_Economics_2001.jpg'
 ---
 
-Illuminate the part of economics that makes no sense to me.
+The part of economics that makes no sense to me.
 ======
 
 This book is a recommendation to help me with my dis-orientations in econ-related news and policies, especially those fiercely defend capitalism.
