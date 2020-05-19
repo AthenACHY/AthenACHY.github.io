@@ -38,8 +38,8 @@ These details are only brought to our attention by Keen's insights; as ordinary 
 From chapter 7 onwards, Keen described the **"Assumptions don't matter"** notion introduced by Friedman to defend the problematic classical economical models.
 <blockquote>
 <p>	
-**The more significant the theory, the more unrealistic the assumptions""**
-Milton Friedman
+>The more significant the theory, the more unrealistic the assumptions.  
+>>Milton Friedman
 </p>
 </blockquote>
 
