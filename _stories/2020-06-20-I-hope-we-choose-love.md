@@ -54,3 +54,5 @@ Maybe it is true that I will not be able to enjoy certain happiness from a parti
 But that shall not be my expectation anyway as my life surely will lead me to my own adventures and myself settling on the reality that the aforementioned life style may not always translate to happiness.
 
 It will be great if we finally don't need to be brave and survive our life but instead just be one of the very ordinary unique individual living in a peaceful society. That is my hope, without faith; knowing that the future will be new and we all have a chance to shape it. 
+
+p.s. Dear Sarah Hegazy, we will fight on until we meet you in the next world.
