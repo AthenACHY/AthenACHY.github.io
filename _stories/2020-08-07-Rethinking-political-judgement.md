@@ -64,7 +64,7 @@ As Arendt pointed out, there are not obligation but supports to a particular reg
 With a plethora of individuals giving up their ultimate freedom in political judgment and action, we submitted ourselves as the stalkholder of atrocity.
 
 ### Concluding remarks
-This book has refresh a few important yet overlooked ideas of the political import of today.
+This book has refreshed a few important yet overlooked ideas of the political import of today, an era with constant "outrage", shouts of "facts and logics" and negnegligence of the sufferings of other, merely paint them as "feelings" that no one care.
 
 First, we have to acknowledge that political judgment is not a personal thought experiment that we can come to the "truth" via rational thinking. Rather it is a collective engagement in dialogs that take into diverse narratives of individuals who experience the world in different ways. Only by reflective thinking and  exploring the experience of suffering and oppression of the others that we can arrive at our political judgment, giving ourself meanings and values.
 
