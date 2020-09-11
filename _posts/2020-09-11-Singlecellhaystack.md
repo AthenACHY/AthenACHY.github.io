@@ -10,7 +10,7 @@ Single-cell studies is shifting focus.
 Instead of grouping cells into neat cluster, theres are more about the transcriptomes and dynamics in the data that portrait the cell state in a more truthful way.
 This is what SingleCellHaystack[(Vandenbon A, Diez D (2020)]( https://doi.org/10.1038/s41467-020-17900-3) aims at, to find defining DEGs without the underlying cluster assumptions. 
 
-##Transition from clusterings
+## Transition from clusterings
 Defining groups of cells to infer cell type identity is an indispensable step in single-cell sequencing analysis.
 The workflow usually consists of a cell x gene matrices consists of the informative genes (highly variable genes) decompose via PCA and present in 2D via t-SNE or UMAP. 
 From there, k-means clustering is performed to identify groups of cell subtypes. Then the ingroup against all other cells would be tested (i.e. FindAllMarkes function in Seurat) to assign gene markers for each group.
@@ -21,7 +21,7 @@ In brief, in a dimension from (i.e. PCA), 100 grid points are assigned to cover 
 The Kullback–Leibler Divergence between the null model *Q* and the distribution of cells (G=T)/(G=F) is computed.
 The higher the KD divergence indicates the higher importance of the gene *G* contributing to the spatial patterns of the cells in the PCs.
 
-##Implementation of SingleCellHaystack
+## Implementation of SingleCellHaystack
 The documentation of [SingleCellHaystack](https://github.com/alexisvdb/singleCellHaystack) is quite detailed and easily followed. I am using the [multi-dimension application](https://alexisvdb.github.io/singleCellHaystack/articles/examples/a02_example_highD_default.html) for this post. 
 SingleCellHaystack requires two input: the dimension reduction embeddings of cells, and a matrix indicating whether gene expression is detected or not ((G=T) and (G=F)) in each cell.
 
