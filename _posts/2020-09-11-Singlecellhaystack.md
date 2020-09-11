@@ -17,7 +17,7 @@ From there, k-means clustering is performed to identify groups of cell subtypes.
 
 Here, SingleCellHaystack adopt a different approach to identify important DEGs. After obtaining the 2D or multi-dimension decomposition of the gene matrix of single cells, it look into where cells (all express a gene/ do not express that gene) are in the multi-dimensional space.
 
-In brief, in a dimension from (i.e. PCA), 100 grid points are assigned to cover the distribution of all the cells. For a grid point *i*, the distance of cells from *i* are measured. The full distance distribution (*Q*) is compared to the distribution of cells that have a particular gene (*G*) expressed or not (P(G=T) and P(G=F)).
+In brief, in a dimension from (i.e. PCA), 100 grid points are assigned to cover the distribution of all the cells. For a grid point *i*, the euclidean distance of cells from *i* are measured. The full distance distribution of all genes (*Q*) is compared to the distribution of cells that have a particular gene (*G*) expressed or not (P(G=T) and P(G=F)).
 The Kullback–Leibler Divergence between the null model *Q* and the distribution of cells (G=T)/(G=F) is computed.
 The higher the KD divergence indicates the higher importance of the gene *G* contributing to the spatial patterns of the cells in the PCs.
 
