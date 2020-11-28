@@ -1,6 +1,6 @@
 ---
 layout: story
-title: Frans De Waal - Mama's last hug
+title: Frans De Waal - Mama's Last Hug
 thumbnail: '/img/story/Mama_last_hug.jpg'
 ---
 
