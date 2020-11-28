@@ -1,6 +1,6 @@
 ---
 layout: story
-title: Paul Davies - The demon in the machine
+title: Paul Davies - The Demon In The Machine
 thumbnail: '/img/story/Demon_in_Machine.jpg'
 ---
 
