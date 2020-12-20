@@ -7,7 +7,7 @@ thumbnail: '/img/story/On_compromises.jpg'
 Rotten Compromises
 ======
 
-Margalit's definition of a rotten compromise is an **"Agreement made to establish and maintain an inhuman regime, a regime of systematic cruelty and humiliation."**. 
+Margalit's definition of a rotten compromise is an **"Agreement made to establish and maintain an inhuman regime, a regime of systematic cruelty and humiliation"**. 
 The pact with the evil is rotten because it corrupts morality, which predicated out shared humanity.
 
 However, Margalit pointed out that, we make compromise everyday so that we could live in a highly cooperative society.
