@@ -5,9 +5,8 @@ background: '/img/20181028_120218.jpg'
 category: story
 ---
 
-{% for post in paginator.posts %}
 {% assign stories = site.stories | sort: 'date' | reverse %}
-{% for item in site.stories reversed %}
+{% for item in paginator.stories reversed %}
 
 <article class="story">
  <!--  <h2> 
