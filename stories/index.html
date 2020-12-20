@@ -6,7 +6,7 @@ category: story
 ---
 
 {% assign stories = site.stories | sort: 'date' | reverse %}
-{% for item in paginator.stories reversed %}
+{% for item in site.stories reversed %}
 
 <article class="story">
  <!--  <h2> 
