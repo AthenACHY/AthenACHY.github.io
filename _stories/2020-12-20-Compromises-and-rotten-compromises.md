@@ -15,12 +15,12 @@ However, Margalit pointed out that, we make compromise everyday so that we could
 *"I believe the clash that should bother us most is that between peace and justice."*
 
 There are compromises made that are unjust, but remain peace. The injustices that we perceived because of our values; we contradict ourselves so as to live among each others. 
-Margalit put peace (or the perspective of long-term peace) at the high goal and regard peace as an important criterion for compromises. In the face of grave injustice, Margalit maintained that we still have to put peace as our top priority and raise wars.
+Margalit put peace (or the perspective of long-term peace) at the high goal and regard peace as an important criterion for compromises. In the face of grave injustice, Margalit maintained that we still have to put peace as our top priority than raising wars.
 
-A representative rotten compromise He had discussed is the Munich Agreement. The "appeasement" attitude Britain and France held had threw Czechoslovakia under the bus and led to the expansion of the Nazi regime.
-Such compromise is rotten because it 1) signed with the evil, and 2) on the expense on a third party (Czechoslovakia being the victim).
+A representative rotten compromise he had discussed is the Munich Agreement. The "appeasement" attitude Britain and France held had threw Czechoslovakia under the bus and led to the expansion of the Nazi regime.
+Such compromise is rotten because it 1) was signed with the evil Nazi, and 2) on the expense on a third party (Czechoslovakia being the victim).
 
-Another historical case Margalit used is the Yalta agreement, that accepted Stalin rule over and terrorize Eastern Europe. In the Yalta agreement, the Allies accepted the condition of forced repatriation that resulted in handing over two million of eastern europeans to forced labor camps to the soviet Union.
+Another historical case Margalit used is the Yalta agreement, that accepted Stalin rule over and terrorize Eastern Europe. In the Yalta agreement, the Allies accepted the condition of forced repatriation that resulted in handing over two million of eastern europeans to forced labor camps to the Soviet Union.
 Margalit pointed out that the Allies have sufficient grounds to reject that condition to save these refugees, but did not.
 The Allies' compromise was not because of fearing Stalin retaliation, but of **expediency**: to get rid of all the unwanted migrants.
 
@@ -37,7 +37,7 @@ Nonetheless, the government/community leaders usually present such rotten compro
 Between individuals, there are two types of compromises: anemic and sanguine.
 Anemic attempts reflect liberal competition, that both parties try to maximize their own benefits.
 Sanguine compromise, on the other hand based on the mutual recognition and respect of the opposite side; that striking a deal to promote a collective wellness (which may involve giving up dreams or values).
-Another interesting point Margalit raised was that economic transaction reinforce the notion that most things can be translated into prices, that a lot of seemingly privileged values are now open to economic negotiations; it is good that more deals could be reach but it can be bad as morality can now be easily diluted.  
+Another interesting point Margalit raised was that economic transaction reinforce the notion that most things can be translated into prices, that a lot of seemingly privileged values are now open to economic negotiations; it is good that more deals could be reached but it can be bad as morality can now be easily diluted.  
 
 On the bigger scale, we can consider what kind of society we live in: a moral, a indifferent, a tribal, or a immoral society.
 Margalit argues that ethics regulate thick relations, while morality regulate thin relations; an ethical leader would act most selfishly in defending the interests of their tribe. 
@@ -48,7 +48,7 @@ Do we have an obligation to alleviate others' sufferings, to what extent?
 
 With my own observation, a lot of compromises are made everyday, most of them are unconsciously rotten.
 A large portion of these rotten deals are made in our purchases of goods: have we not gave up on the well-beings of animals, our concerns of salve labors, and the environment for the sake of our convenience? 
-Have we not make these decision out of expediency, our own selfishness?
+Have we not make these decisions out of expediency, our own selfishness?
 
 Have we grow indifferent to the plights and difficulties other people faces, so that we don't get overwhelmed with "negativity"?
 Instead of avoiding to instill a sense of hopelessness, I would say that we are morally lazy if we choose to look away.
