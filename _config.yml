@@ -56,9 +56,17 @@ timezone: Europe/London # Timezone for blog posts and alike
 # 5. Collections
 collections:
   posts:
-    title: Blog # Needed for Siteleaf
+    title: Book notes # Needed for Siteleaf
     output: true
     description: "My book notes" # The post list page content
+    feature_text: |
+      Read the books
+    feature_image: "https://picsum.photos/2560/600?image=866"
+
+  posts:
+    title: Blog # Needed for Siteleaf
+    output: true
+    description: "Notes on bioinformatics projects." # The post list page content
     feature_text: |
       Welcome to the blog
     feature_image: "https://picsum.photos/2560/600?image=866"
@@ -113,11 +121,9 @@ navigation_header:
   url: /blog/
 - title: Elements
   url: /elements/
-- title: Blog
-  url: /blog/
-- title: Categories
-  url: /categories/
-- title: Search
+- title: Book notes
+  url: /stories/
+- title: Old site
   url: /search/
 - title: Fork Alembic
   url: https://github.com/daviddarnes/alembic
