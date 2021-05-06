@@ -11,9 +11,10 @@ category: stories
   <div class="content">
 
     <article class="article  article--page  typeset">
-  {% assign collectiondata = site.collections  %}
+   {% assign collectiondata = site.collections | where: "label", page.collectionpage | first %}
         <h1>{{ collectiondata.title }}</h1>
         {{ collectiondata.description | markdownify }}
+	    
 {% for post in site.stories %}
  <div class="post">
 		<h1 class="title"><a href="{{ post.url }}">{{ post.title }}</a></h1>
