@@ -17,7 +17,7 @@ category: stories
  <div class="post">
 		<h2 class="title"><a href="{{ post.url }}">{{ post.title }}</a></h2>
 	 	{% include post-meta.html %}
-            	{{ page.excerpt | markdownify | truncatewords: 60 }}
+            	{{ post.description | markdownify | truncatewords: 60 }}
 		
       
       
