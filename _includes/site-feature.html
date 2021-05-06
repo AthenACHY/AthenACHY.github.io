@@ -10,7 +10,7 @@
   <div class="feature"{% if feature_image %} style="background-image: url({{ feature_image }})"{% endif %}>
     <div class="container  typeset">
       <h1>{{ collectiondata.description | markdownify }}</h1>
-      <h3>{{ feature_text | markdownify }}</h3>
+      {{ feature_text | markdownify }}
     </div>
   </div>
 {% endif %}
