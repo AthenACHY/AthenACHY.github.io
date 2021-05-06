@@ -55,7 +55,7 @@ timezone: Europe/London # Timezone for blog posts and alike
 
 # 5. Collections
 collections:
-  posts:
+  stories:
     title: Book notes # Needed for Siteleaf
     output: true
     description: "My book notes" # The post list page content
@@ -82,6 +82,12 @@ defaults:
     scope:
       path: ""
       type: "posts"
+    values:
+      layout: post # Set the default layout for posts
+  -
+    scope:
+      path: ""
+      type: "stories"
     values:
       layout: post # Set the default layout for posts
   -
