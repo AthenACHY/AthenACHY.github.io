@@ -27,8 +27,12 @@ category: stories
           
         <div padding-bottom: 10px;>
          <a style="width:700px" font-size:20 href="{{ post.url }}" >{{ post.title }}</a>  
-	<br>
-	{% if post.categories %}
+	
+	
+         </div>
+ </h2>  
+    </div>
+{% if post.categories %}
   {% capture categories %}
     {% for category in post.categories %}
       <span class="label  label--category"><a href="{{ site.baseurl }}/categories/#{{ category | downcase }}">{{ category }}</a></span>{% if forloop.last == false %},{% endif %}
@@ -43,11 +47,8 @@ category: stories
 <small class="small  post-meta">
   {% assign date_format = post.date_format | default: "%d %b %Y" %}
   {{ categories | append: "&nbsp;&middot;&nbsp;" }}<time datetime="{{ post.date | date_to_xmlschema }}" class="time">{{ post.date | date: date_format }}</time>
-</small>
-	
-         </div>
- </h2>  
-    </div>
+</small>	 
+	 
 <div class="clearfix"; padding-bottom: 20px;>
 
 </div> 
@@ -59,8 +60,6 @@ category: stories
 {% endfor %}
     </article>
   </div>
-
-  {% if page.aside == true %}{% include site-aside.html %}{% endif %}
 
 </main>
 
