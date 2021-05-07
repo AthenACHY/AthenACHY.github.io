@@ -16,27 +16,42 @@ category: stories
 
 {% assign stories = site.stories | sort: 'date' | reverse %}	    
 {% for post in site.stories resversed %}
-
-  <div class="post">
-<h2 margin: 10px; box-sizing: border-box;>
- <div class="container">     
-     
+ <div class="post">
+ <div class="container";
+  padding-top: 20px;
+  padding-right: 5px;
+  padding-bottom: 20px;
+  padding-left: 5px;>     
+     <h2>
         <a href="{{ post.url }}" ><img src="{{ post.thumbnail }}" align="left" hspace="20" style="max-width:100px;" />
-        <div padding-bottom: 10px;
-	      margin: 20px auto;>
-         <a style="width:700px; height:150px" font-size:20 href="{{ post.url }}" >{{ post.title }}</a>  
-<br>
+          
+        <div padding-bottom: 10px;>
+         <a style="width:700px" font-size:20 href="{{ post.url }}" >{{ post.title }}</a>  
+	
+	
+         </div>
+ </h2>  
+    </div>
+{% if post.categories %}
+  {% capture categories %}
+    {% for category in post.categories %}
+      <span class="label  label--category"><a href="{{ site.baseurl }}/categories/#{{ category | downcase }}">{{ category }}</a></span>{% if forloop.last == false %},{% endif %}
+    {% endfor %}
+  {% endcapture %}
+{% elsif post.category %}
+  {% capture categories %}
+    <span class="label  label--category"><a href="{{ site.baseurl }}/categories/#{{ page.category | downcase }}">{{ post.category }}</a></span>
+  {% endcapture %}
+{% endif %}
+
 <small class="small  post-meta">
   {% assign date_format = post.date_format | default: "%d %b %Y" %}
   {{ categories | append: "&nbsp;&middot;&nbsp;" }}<time datetime="{{ post.date | date_to_xmlschema }}" class="time">{{ post.date | date: date_format }}</time>
 </small>	 
-</h2>	 
-<div class="clearfix";  margin: 10px; padding-bottom: 20px;>
+	 
+<div class="clearfix"; padding-bottom: 20px;>
 
 </div> 
- </div>
-</div>
-	 
 
 	 	
 	
