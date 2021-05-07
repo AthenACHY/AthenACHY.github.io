@@ -56,24 +56,24 @@ $gutterwidths: (
 // Add weight and style details too.
 // ! Set cap height to set to the baseline.
 $bodytype: (
-  font-family: 'Arial',
+  font-family: 'Calibri',
   regular: 400,
-  bold: 700,
+  bold: 600,
   italic: italic,
   cap-height: 0.66
 ) !default;
 
 $headingtype: (
-  font-family: 'Arial',
+  font-family: 'Calibri',
   regular: 400,
-  bold: 700,
+  bold: 600,
   cap-height: 0.66
 ) !default;
 
 $monospacetype: (
-  font-family: 'Arial',
+  font-family: 'Calibri',
   regular: 400,
-  cap-height: 0.68
+  cap-height: 0.66
 ) !default;
 
 // Here are some local fonts cap-height sizes to get you started:
