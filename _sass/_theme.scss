@@ -1,3 +1,23 @@
+// user element
+.content {
+    max-width: 1200px;
+    border: 1px solid black;
+    padding: 20px;
+    overflow: hidden;
+}
+
+.content img {
+    margin-right: 5px;
+    float: left;
+}
+
+.content h3,
+.content p{
+    margin-left: 15px;
+    display: block;
+    margin: 2px 0 0 0;
+}
+
 // Structural elements
 body {
   background: $backgroundColour;
