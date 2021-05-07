@@ -10,38 +10,56 @@ category: stories
 
 <main class="main  container">
 
+  <div class="content">
 
-{% assign stories = site.stories | sort: 'date' | reverse %}
-{% for item in site.stories reversed %}
+    <article class="article  article--post  typeset">
 
-<article class="story">
- <!--  <h2> 
-  <a href="{{ item.url }}">{{ item.title }}</a>
-   </h2>
-    {% if item.subtitle %}
-    <h3 class="story-subtitle">{{ item.subtitle }}</h3>
-    {% else %}
-    <h3 class="story-subtitle">{{ item.excerpt | strip_html | truncatewords: 15 }}</h3>
-    {% endif %} -->
-
-    <div class="container">     
+{% assign stories = site.stories | sort: 'date' | reverse %}	    
+{% for post in site.stories resversed %}
+ <div class="post">
+ <div class="container";
+  padding-top: 20px;
+  padding-right: 5px;
+  padding-bottom: 20px;
+  padding-left: 5px;>     
      <h2>
-        <a href="{{ item.url }}" ><img src="{{ item.thumbnail }}" align="left" hspace="10" style="max-width:100px;" />
+        <a href="{{ post.url }}" ><img src="{{ post.thumbnail }}" align="left" hspace="20" style="max-width:100px;" />
           
-        <div>
-         <a style="width:600px" font-size:20 href="{{ item.url }}" >{{ item.title }}</a>  
+        <div padding-bottom: 10px;>
+         <a style="width:700px" font-size:20 href="{{ post.url }}" >{{ post.title }}</a>  
+	
+	
          </div>
  </h2>  
     </div>
-<div class="clearfix">
+{% if post.categories %}
+  {% capture categories %}
+    {% for category in post.categories %}
+      <span class="label  label--category"><a href="{{ site.baseurl }}/categories/#{{ category | downcase }}">{{ category }}</a></span>{% if forloop.last == false %},{% endif %}
+    {% endfor %}
+  {% endcapture %}
+{% elsif post.category %}
+  {% capture categories %}
+    <span class="label  label--category"><a href="{{ site.baseurl }}/categories/#{{ page.category | downcase }}">{{ post.category }}</a></span>
+  {% endcapture %}
+{% endif %}
+
+<small class="small  post-meta">
+  {% assign date_format = post.date_format | default: "%d %b %Y" %}
+  {{ categories | append: "&nbsp;&middot;&nbsp;" }}<time datetime="{{ post.date | date_to_xmlschema }}" class="time">{{ post.date | date: date_format }}</time>
+</small>	 
+	 
+<div class="clearfix"; padding-bottom: 20px;>
 
 </div> 
 
-</article>
-
-<hr>
-
+	 	
+	
+      
+      
 {% endfor %}
+    </article>
+  </div>
 
 </main>
 
