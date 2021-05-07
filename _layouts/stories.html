@@ -14,11 +14,12 @@ category: stories
 
     <article class="article  article--post  typeset">
    
+{% assign stories = site.stories | sort: 'date' | reverse %}	    
 {% for post in site.stories resversed %}
  <div class="post">
  <div class="container">   
 <div class="content">
-    <img src="{{ post.thumbnail }}" align="left" hspace="30" style="max-height:150px;" />
+    <img src="{{ post.thumbnail }}" align="left" hspace="30" style="height:150px;" />
     <h3> <a font-size:20 href="{{ post.url }}" >{{ post.title }}</a></h3>
 </div>	 
 	 
