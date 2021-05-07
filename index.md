@@ -1,5 +1,5 @@
 ---
-title: About Me
+description: About Me
 feature_text: |
   This is what I enjoy doing.
 feature_image: '/img/20181028_120218.jpg'
