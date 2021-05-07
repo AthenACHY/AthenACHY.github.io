@@ -9,14 +9,14 @@ category: stories
 {% include site-header.html %}
 
 <main class="main  container">
-
+<div class="content">
 <article class="article  article--post  typeset">
    
 {% assign stories = site.stories | sort: 'date' | reverse %}	    
 {% for post in site.stories reversed %}
  <div class="post">
  <div class="container"> 
-<div class="content">
+<div class="content_box">
    <img src="{{ post.thumbnail }}" align="left" hspace="30" style="max-width:100px;" />
     <h3> <a font-size:20 href="{{ post.url }}" >{{ post.title }}</a></h3>
 </div>	 
@@ -43,7 +43,7 @@ category: stories
       
 {% endfor %}
 </article>
-
+</div>
 </main>
 
 {% include site-footer.html %}
