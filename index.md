@@ -2,6 +2,7 @@
 title: About Me
 feature_text: |
   This is what I enjoy doing.
+feature_image: '/img/20181028_120218.jpg'
 ---
 
 <a href="https://avatars2.githubusercontent.com/u/32728871?s=460&v=4"  target="https://github.com/AthenACHY">
