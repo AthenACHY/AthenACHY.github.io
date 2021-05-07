@@ -65,16 +65,16 @@ collections:
     output: true
     description: "My book notes" # The post list page content
     feature_text: |
-      Read the books
-    feature_image: "https://picsum.photos/2560/600?image=866"
+      If books, then those which can be carried in the memory <br/> - Stanisław Barańczak
+    feature_image: '/img/20181028_120218.jpg' 
 
   posts:
     title: Blog # Needed for Siteleaf
     output: true
-    description: "Trials and Errors Bioinformatics" # The post list page content
+    description: "TRIALS AND ERRORS BIOINFORMATICS" # The post list page content
     feature_text: |
-      Trying out and failing forward on my journey about bioinformatic analyses.
-    feature_image: "https://picsum.photos/2560/600?image=866"
+      Experimental Life
+    feature_image: '/img/20181028_120218.jpg'
 
 # 6. Jekyll collections settings
 defaults:
