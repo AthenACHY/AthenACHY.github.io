@@ -22,17 +22,12 @@ category: stories
   padding-right: 5px;
   padding-bottom: 20px;
   padding-left: 5px;>     
-     <h2>
+     
         <a href="{{ post.url }}" ><img src="{{ post.thumbnail }}" align="left" hspace="20" style="max-width:100px;" />
-          
-        <div padding-bottom: 10px;>
+        <div padding-bottom: 10px;
+	      margin: 20px auto;>
          <a style="width:700px; height:150px" font-size:20 href="{{ post.url }}" >{{ post.title }}</a>  
-	
-	
-         </div>
- </h2>  
-    </div>
-{% if post.categories %}
+	{% if post.categories %}
   {% capture categories %}
     {% for category in post.categories %}
       <span class="label  label--category"><a href="{{ site.baseurl }}/categories/#{{ category | downcase }}">{{ category }}</a></span>{% if forloop.last == false %},{% endif %}
@@ -52,6 +47,9 @@ category: stories
 <div class="clearfix"; padding-bottom: 20px;>
 
 </div> 
+ </div>
+</div>
+
 
 	 	
 	
