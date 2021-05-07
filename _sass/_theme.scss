@@ -1,6 +1,7 @@
 // user element
 .content {
-    width: 800px;
+     width: 90%;
+    max-width: 1150px;
     border: 1px solid white;
     padding: 20px;
     overflow: hidden;
@@ -13,6 +14,7 @@
 
 .content h3,
 .content p{
+    width: 800px
     margin-left: 15px;
     display: block;
     margin: 2px 0 0 0;
