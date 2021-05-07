@@ -19,18 +19,11 @@ category: stories
  <div class="post">
 		    <div class="container">     
      <h2>
-        <a href="{{ post.url }}" ><img src="{{ post.thumbnail }}" align="left" hspace="10" style="max-width:100px;" />
+        <a href="{{ post.url }}" ><img src="{{ post.thumbnail }}" align="left" hspace="20" style="max-width:100px;" />
           
         <div>
-         <a style="width:600px" font-size:20 href="{{ post.url }}" >{{ post.title }}</a>  
-         </div>
- </h2>  
-    </div>
-<div class="clearfix">
-
-</div> 
-
-	 	{% if post.categories %}
+         <a style="width:700px" font-size:20 href="{{ post.url }}" >{{ post.title }}</a>  
+	{% if post.categories %}
   {% capture categories %}
     {% for category in post.categories %}
       <span class="label  label--category"><a href="{{ site.baseurl }}/categories/#{{ category | downcase }}">{{ category }}</a></span>{% if forloop.last == false %},{% endif %}
@@ -46,10 +39,16 @@ category: stories
   {% assign date_format = post.date_format | default: "%d %b %Y" %}
   {{ categories | append: "&nbsp;&middot;&nbsp;" }}<time datetime="{{ post.date | date_to_xmlschema }}" class="time">{{ post.date | date: date_format }}</time>
 </small>
+	
+         </div>
+ </h2>  
+    </div>
+<div class="clearfix">
 
-	 
-{{ post.description | markdownify | truncatewords: 60 }}
-		
+</div> 
+
+	 	
+	
       
       
 {% endfor %}
