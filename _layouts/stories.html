@@ -18,14 +18,15 @@ category: stories
 {% for post in site.stories resversed %}
  <div class="post">
  <div class="container";
-  padding-top: 20px;
+  style="padding-top: 20px;
   padding-right: 5px;
   padding-bottom: 20px;
-  padding-left: 5px;>     
+  padding-left: 5px;">     
      <h2>
+	<div style="border: 1px solid black">     
         <a href="{{ post.url }}" ><img src="{{ post.thumbnail }}" align="left" hspace="30" style="max-height:200px;" />
           
-        <div style="border: 1px solid black">
+        
          <a style="width:700px" font-size:20 href="{{ post.url }}" >{{ post.title }}</a>  		
 	<br>
 	<small class="small  post-meta">
