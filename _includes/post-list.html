@@ -6,7 +6,11 @@
           <article class="article  article--post">
 
             <h3><a href="{{ site.baseurl }}{{ page.url }}">{{ page.title }}</a></h3>
-            {% include post-meta.html %}
+            <!-- {% include post-meta.html %} -->
+            <small class="small  post-meta">
+  {% assign date_format = post.date_format | default: "%d %b %Y" %}
+ <time datetime="{{ post.date | date_to_xmlschema }}" class="time">{{ post.date | date: date_format }}</time>
+</small>
             {{ page.excerpt | markdownify | truncatewords: 20 }}
 
           </article>
