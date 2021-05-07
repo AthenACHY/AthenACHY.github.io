@@ -1,18 +1,18 @@
 // user element
-.content {
+.content_box {
     width: 1000px;
     border: 1px solid white;
     padding: 10px;
     overflow: hidden;
 }
 
-.content img {
+.content_box img {
     margin-right: 5px;
     float: left;
 }
 
-.content h3,
-.content p{
+.content_box h3,
+.content_box p{
     width: 700px;
     margin-left: 15px;
     display: block;
