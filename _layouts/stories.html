@@ -14,8 +14,8 @@ category: stories
 
     <article class="article  article--post  typeset">
 
-	    
-{% for post in site.stories %}
+{% assign post = site.stories | sort: 'date' | reverse %}	    
+{% for post in site.stories resversed %}
  <div class="post">
 		    <div class="container">     
      <h2>
