@@ -23,31 +23,18 @@ category: stories
   padding-bottom: 20px;
   padding-left: 5px;>     
      <h2>
-        <a href="{{ post.url }}" ><img src="{{ post.thumbnail }}" align="left" hspace="20" style="max-width:100px;" />
+        <a href="{{ post.url }}" ><img src="{{ post.thumbnail }}" align="left" hspace="30" style="max-height:200px;" />
           
-        <div padding-bottom: 10px;>
-         <a style="width:700px" font-size:20 href="{{ post.url }}" >{{ post.title }}</a>  
-	
-	
+        <div style="border: 1px solid black">
+         <a style="width:700px" font-size:20 href="{{ post.url }}" >{{ post.title }}</a>  		
+	<br>
+	<small class="small  post-meta">
+ 	 {% assign date_format = post.date_format | default: "%d %b %Y" %}
+  	<time datetime="{{ post.date | date_to_xmlschema }}" class="time">{{ post.date | date: date_format }}</time>
+	</small>	
          </div>
  </h2>  
     </div>
-{% if post.categories %}
-  {% capture categories %}
-    {% for category in post.categories %}
-      <span class="label  label--category"><a href="{{ site.baseurl }}/categories/#{{ category | downcase }}">{{ category }}</a></span>{% if forloop.last == false %},{% endif %}
-    {% endfor %}
-  {% endcapture %}
-{% elsif post.category %}
-  {% capture categories %}
-    <span class="label  label--category"><a href="{{ site.baseurl }}/categories/#{{ page.category | downcase }}">{{ post.category }}</a></span>
-  {% endcapture %}
-{% endif %}
-
-<small class="small  post-meta">
-  {% assign date_format = post.date_format | default: "%d %b %Y" %}
-  {{ categories | append: "&nbsp;&middot;&nbsp;" }}<time datetime="{{ post.date | date_to_xmlschema }}" class="time">{{ post.date | date: date_format }}</time>
-</small>	 
 	 
 <div class="clearfix"; padding-bottom: 20px;>
 
