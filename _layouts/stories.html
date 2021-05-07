@@ -18,13 +18,8 @@ category: stories
 {% for post in site.stories resversed %}
 
   <div class="post">
-<h2 margin: 10px;>
- <div class="container";
-  border: 10px dotted black;
-  padding-top: 20px;
-  padding-right: 5px;
-  padding-bottom: 20px;
-  padding-left: 5px;>     
+<h2 margin: 10px; box-sizing: border-box;>
+ <div class="container">     
      
         <a href="{{ post.url }}" ><img src="{{ post.thumbnail }}" align="left" hspace="20" style="max-width:100px;" />
         <div padding-bottom: 10px;
@@ -35,12 +30,11 @@ category: stories
   {% assign date_format = post.date_format | default: "%d %b %Y" %}
   {{ categories | append: "&nbsp;&middot;&nbsp;" }}<time datetime="{{ post.date | date_to_xmlschema }}" class="time">{{ post.date | date: date_format }}</time>
 </small>	 
-	 
+</h2>	 
 <div class="clearfix";  margin: 10px; padding-bottom: 20px;>
 
 </div> 
  </div>
-</h2>
 </div>
 	 
 
