@@ -19,6 +19,10 @@ category: stories
 <div class="content_box">
    <img src="{{ post.thumbnail }}" align="left" hspace="30" style="max-width:100px;" />
     <h3> <a font-size:20 href="{{ post.url }}" >{{ post.title }}</a></h3>
+    <p><small class="small  post-meta">
+ 	 {% assign date_format = post.date_format | default: "%d %b %Y" %}
+  	<time datetime="{{ post.date | date_to_xmlschema }}" class="time">{{ post.date | date: date_format }}</time>
+	    </small></p>
 </div>	 
 </div>
 </div>
