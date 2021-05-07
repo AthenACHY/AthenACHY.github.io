@@ -16,7 +16,8 @@ category: stories
 
 {% assign stories = site.stories | sort: 'date' | reverse %}	    
 {% for post in site.stories resversed %}
- <div class="post">
+
+  <div class="post">
  <div class="container";
   padding-top: 20px;
   padding-right: 5px;
@@ -27,17 +28,6 @@ category: stories
         <div padding-bottom: 10px;
 	      margin: 20px auto;>
          <a style="width:700px; height:150px" font-size:20 href="{{ post.url }}" >{{ post.title }}</a>  
-	{% if post.categories %}
-  {% capture categories %}
-    {% for category in post.categories %}
-      <span class="label  label--category"><a href="{{ site.baseurl }}/categories/#{{ category | downcase }}">{{ category }}</a></span>{% if forloop.last == false %},{% endif %}
-    {% endfor %}
-  {% endcapture %}
-{% elsif post.category %}
-  {% capture categories %}
-    <span class="label  label--category"><a href="{{ site.baseurl }}/categories/#{{ page.category | downcase }}">{{ post.category }}</a></span>
-  {% endcapture %}
-{% endif %}
 
 <small class="small  post-meta">
   {% assign date_format = post.date_format | default: "%d %b %Y" %}
