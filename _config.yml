@@ -133,9 +133,9 @@ navigation_header:
 - title: Book notes
   url: /stories/
 - title: Old site
-  url: /search/
-- title: About me
   url: "https://cintamukti818.wixsite.com/website"
+- title: About me
+  url: /
 
 navigation_footer:
 - title: 
