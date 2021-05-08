@@ -13,5 +13,5 @@ feature_image: '/img/20181028_120218.jpg'
 <p>This is a blog about trails and errors; all the failing forwards to work with big-data to solve biological questions. </p>
 <br>
 I used Clean-blog for over 2 years as my template, but it no longer works. So I am now migrating to **Alembic**.
-Many thanks to the creator that build the framework of the site and if you also would like to make your won blog, do give it a [try]("https://github.com/daviddarnes/alembic").
+Many thanks to the creator that build the framework of the site; and if you also would like to make your own blog, do give it a [try]("https://github.com/daviddarnes/alembic").
 
