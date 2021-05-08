@@ -3,6 +3,7 @@
 {% assign page_title = page.description %}
 {% if page.collectionpage %}
   {% assign collectiondata = site.collections | where: "label", page.collectionpage | first %}
+  {% assign description = collectiondata.description %}
   {% assign feature_text = collectiondata.feature_text %}
   {% assign feature_image = collectiondata.feature_image %}
 {% endif %}
@@ -12,6 +13,8 @@
     <div class="container  typeset">
       {% if page_title %}
       <h1>{{page_title | markdownify }}</h1>
+      {% else %}
+      <h1>{{ description | markdownify }}</h1>
       {% endif %}
       <h3>{{ feature_text | markdownify }}</h3>
     </div>
