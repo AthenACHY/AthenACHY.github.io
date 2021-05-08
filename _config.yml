@@ -74,7 +74,7 @@ collections:
     description: "TRIALS AND ERRORS BIOINFORMATICS" # The post list page content
     feature_text: |
       Experimental Life
-    feature_image: '/img/20181028_120218.jpg'
+    feature_image: '/img/PXL_20210507_090203974.jpg'
 
 # 6. Jekyll collections settings
 defaults:
