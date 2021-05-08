@@ -1,32 +1,15 @@
 {% assign feature_text = page.feature_text %}
 {% assign feature_image = page.feature_image %}
-<!--{% assign page_title = page.description %}-->
-
 {% if page.collectionpage %}
   {% assign collectiondata = site.collections | where: "label", page.collectionpage | first %}
   {% assign feature_text = collectiondata.feature_text %}
   {% assign feature_image = collectiondata.feature_image %}
 {% endif %}
 
- {% if feature_text or feature_image %}
+{% if feature_text or feature_image %}
   <div class="feature"{% if feature_image %} style="background-image: url({{ feature_image }})"{% endif %}>
     <div class="container  typeset">
-      <h1>{{ collectiondata.description | markdownify }}</h1>
-     <h3>{{ feature_text | markdownify }}</h3>
-    </div>
-  </div> 
-<!--{% if feature_text or feature_image %}
-  <div class="feature"{% if feature_image %} style="background-image: url({{ feature_image }})"{% endif %}>
-    <div class="container  typeset">
-      <h1>{{ page_title | markdownify }}</h1>
-     <h3>{{ feature_text | markdownify }}</h3>
+      {{ feature_text | markdownify }}
     </div>
   </div>
-{% else %}
-  <div class="feature"{% if feature_image %} style="background-image: url({{ feature_image }})"{% endif %}>
-    <div class="container  typeset">
-      <h1>{{ collectiondata.description | markdownify }}</h1>
-     <h3>{{ feature_text | markdownify }}</h3>
-    </div>
-  </div>-->
 {% endif %}
