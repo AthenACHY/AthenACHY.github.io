@@ -94,7 +94,7 @@ defaults:
       path: ""
       type: "stories"
     values:
-      layout: post # Set the default layout for posts
+      layout: story_post # Set the default layout for posts
   -
     scope:
       path: ""
