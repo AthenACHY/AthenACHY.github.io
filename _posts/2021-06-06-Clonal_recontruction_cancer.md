@@ -7,12 +7,11 @@ Using Revolver to study cancer evolution.
 ======
 
 ### The challenge in studying cancers
-
 Cancer evolution, the accumulation of mutations driving the formation of carcinomas, is always fascinating and confusing at the same time. 
 On one hand, it is fascinating to see that there are key oncogenes and tumor suppression mutations that show up repeatedly; while on another hand, each cancer has its own evolution trajectory that the driver genes mutations may not follow a general trend. 
 Sampling biases and intra-tumor heterogeneity make conferring a correct phylogenetic tree even harder. 
 
-I began this post with reading about the Revolver package. 
+I began this post with reading about the [Revolver package](https://github.com/caravagn/revolver) back in April. 
 It is a tool to identify key evolutionary event in carcinogenesis via jointly analysing bulk multi-region samples. 
 There, I not only learnt about a few new concepts on studying the heterogeneity and transition of cancers, I also learn about a few important packages to deconvolute the structural hierarchy of a tumor tissue sample via phylogenetic tree construction, CCF influence and B allele frequency estimations using NGS data. 
 These are all very new to me, so I will go through them one by one. 
@@ -89,12 +88,9 @@ Tracerx<-Tracerx %>% arrange(cluster_id)
 Tracerx<-Tracerx %>% mutate(R1=R1*100, R2=R2*100, R3=R3*100)
 plot.variant.clusters(Tracerx, cluster.col.name = "cluster_id", 
                       vaf.col.names = c("R1", "R2", "R3"))
-
-
 plot.cluster.flow(Tracerx, cluster.col.name = "cluster_id",
                   vaf.col.names = c("R1", "R2", "R3"),
                   sample.names =c("R1", "R2", "R3"))
-
 ~~~
 
 <figure>
@@ -103,6 +99,7 @@ plot.cluster.flow(Tracerx, cluster.col.name = "cluster_id",
 </p>
 <figcaption>VAFs of the 7 TRACERx clusters. </figcaption>
 </figure>
+
 
 To infer clonal structure, I picked cluster 7 (the one with highest VAF) as the founder cluster and infer a "monoclonal" model. 
 infer.clonal.model cannot accept 0-base cluster numbering, so each cluster number has 1 added.
@@ -181,7 +178,6 @@ my_cohort = revolver_cohort(
   annotation = "My small REVOLVER dataset"
 )
 ── Extracting clones table ──────────────────────────────────────────────────
-
 → CRUK0001 : 2100 entries, 11 clone(s).
 → CRUK0002 : 280 entries, 7 clone(s).
 → CRUK0003 : 330 entries, 7 clone(s).
