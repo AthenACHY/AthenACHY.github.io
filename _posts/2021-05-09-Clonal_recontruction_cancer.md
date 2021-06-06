@@ -196,7 +196,7 @@ my_cohort = revolver_cohort(
 That's very cool that revolver create a clonal structure of each patient. Here it outputs the clones info of patient 1 to 10 as I requested. 
 <figure>
 <p align="left">
-<img src="/img/posts/2021_05_09_Cancer_subclone/revolver_CRUK1_10.png" width="400" >
+<img src="/img/posts/2021_05_09_Cancer_subclone/revolver_CRUK1_10.png" width="500" >
 </p>
 <figcaption>Revolver plot of CRUK0001 to CRUK0010. </figcaption>
 </figure>
@@ -204,7 +204,7 @@ That's very cool that revolver create a clonal structure of each patient. Here i
 It also had the analysed TRACERx data of all 100 patients.  
 <figure>
 <p align="left">
-<img src="/img/posts/2021_05_09_Cancer_subclone/revolver_TRACERx.png" width="400" >
+<img src="/img/posts/2021_05_09_Cancer_subclone/revolver_TRACERx.png" width="500" >
 <figcaption>Revolver plot of the TRACERx cohort. Transfer: Information Transfer for the drivers. Drivers: Number of cancer driver each clone carries. </figcaption>
 </p>
 </figure>
