@@ -140,6 +140,7 @@ I is quite interesting that R3 showed a perfect sequential order for cluster eme
 </p>
 <figcaption>ClonEvol inference of R1, R2 and R3. </figcaption>
 </figure>
+
 ### Try revolver
 Now, let try [revolver](https://github.com/caravagnalab/revolver). 
 The tutorial is at revolver/vignettes/Input_formats.Rmd, Getters.Rmd and Plotting_functions.Rmd.
@@ -196,6 +197,7 @@ That's very cool that revolver create a clonal structure of each patient. Here i
 <figure>
 <p align="left">
 <img src="/img/posts/2021_05_09_Cancer_subclone/revolver_CRUK1_10.png" width="400" >
+</p>
 <figcaption>Revolver plot of CRUK0001 to CRUK0010. </figcaption>
 </figure>
 
@@ -204,6 +206,7 @@ It also had the analysed TRACERx data of all 100 patients.
 <p align="left">
 <img src="/img/posts/2021_05_09_Cancer_subclone/revolver_TRACERx.png" width="400" >
 <figcaption>Revolver plot of the TRACERx cohort. Transfer: Information Transfer for the drivers. Drivers: Number of cancer driver each clone carries. </figcaption>
+</p>
 </figure>
 
 ### Conclusion
