@@ -100,6 +100,7 @@ plot.cluster.flow(Tracerx, cluster.col.name = "cluster_id",
 <figure>
 <p align="left">
 <img src="/img/posts/2021_05_09_Cancer_subclone/Cluster_VAF.png" width="400" >
+</p>
 <figcaption>VAFs of the 7 TRACERx clusters. </figcaption>
 </figure>
 
@@ -136,7 +137,9 @@ I is quite interesting that R3 showed a perfect sequential order for cluster eme
 <figure>
 <p align="left">
 <img src="/img/posts/2021_05_09_Cancer_subclone/Clonevol_results.png" width="600" >
-
+</p>
+<figcaption>ClonEvol inference of R1, R2 and R3. </figcaption>
+</figure>
 ### Try revolver
 Now, let try [revolver](https://github.com/caravagnalab/revolver). 
 The tutorial is at revolver/vignettes/Input_formats.Rmd, Getters.Rmd and Plotting_functions.Rmd.
