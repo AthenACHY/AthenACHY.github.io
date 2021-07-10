@@ -4,7 +4,7 @@ title: Jaak Panksepp and Lucy Biven - The archeology of mind
 thumbnail: '/img/story/Archeology_of_mind.jpg'
 ---
 
-Things that we canot put into words.
+Things that we cannot put into words.
 ======
 
 With the whole life devoted to study emotions in animal models, Jaak Panksepp is in a very special position at animal behavior, psychiatry, and neuroscience.
