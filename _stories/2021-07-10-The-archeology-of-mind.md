@@ -50,7 +50,7 @@ In animal, Panksepp pointed out that rage has serve a crucial role in defense bu
 Another very interesting practice I learn from the book is about fear conditioning, how to use fear to make animal "learn". 
 
 
-*"Evolution created the capacity from fearfulness in the brain, but it did not (and could not) inform us of all the things we might need to fear and avoid. Practically all that has to be learned"*
+*"Evolution created the capacity from fearfulness in the brain, but it did not (and could not) inform us of all the things we might need to fear and avoid. Practically all that has to be learned."*
 
 
 FEAR system is studied extensively on learning and memory.
@@ -77,7 +77,7 @@ Finally, brain development is decoupled from bodily development in fetus; which 
 This seemingly controversial area in nowadays, actually is well-studied; it is the deliberating twisting and cherry-picking on partial scientific facts that fuel the controversy and the scientific findings are lost in the sound and furry.
 
 ### Care
-*"about oxytoxin as "the love hormone"- which typically has a few ounces of truth as well as, all too often, pounds of exaggeration. The concept of "confidence" may help explain more of the effects of oxytocin than the concept of "love"*
+*"about oxytoxin as "the love hormone"- which typically has a few ounces of truth as well as, all too often, pounds of exaggeration. The concept of "confidence" may help explain more of the effects of oxytocin than the concept of "love".*
 
 
 Panksepp has put oxytoxin and testosterone as the core mediators in the Care system, that control how animals behave socially.
