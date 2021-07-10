@@ -77,7 +77,7 @@ Finally, brain development is decoupled from bodily development in fetus; which 
 This seemingly controversial area in nowadays, actually is well-studied; it is the deliberating twisting and cherry-picking on partial scientific facts that fuel the controversy and the scientific findings are lost in the sound and furry.
 
 ### Care
-*"about oxytoxin as "the love hormone"- which typically has a few ounces of truth as well as, all too often, pounds of exaggeration. The concept of "confidence" may help explain more of the effects of oxytocin than the concept of "love".*
+*"about oxytoxin as "the love hormone"- which typically has a few ounces of truth as well as, all too often, pounds of exaggeration. The concept of "confidence" may help explain more of the effects of oxytocin than the concept of "love"."*
 
 
 Panksepp has put oxytoxin and testosterone as the core mediators in the Care system, that control how animals behave socially.
