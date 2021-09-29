@@ -206,7 +206,7 @@ And the corrected ECC is defined as log($/sigma$c/$/sigma$B) - C.
 
 <figure>
 <p align="left">
-<img src="/img/posts/2021_09_29_fitness_promoter/Fig3A.png" width="400" height="350" title="Histogram of f<sub>c</sub>">
+<img src="/img/posts/2021_09_29_fitness_promoter/Fig3A.png" width="500" height="300" title="Histogram of f<sub>c</sub>">
 </p>
 <figcaption>Fig. 3A of Vaishnav1 et al. The ECC for a gene is defined as log($\sigma$c/$\sigma$B) - C(constant correction factor) </figcaption>
 </figure> 
@@ -232,7 +232,7 @@ Using the autoencoder, there are the robust type (minima, robust and maxima) and
 
 <figure>
 <p align="left">
-<img src="/img/posts/2021_09_29_fitness_promoter/Fig3A.png" width="500" height="350" title="Histogram of f<sub>c</sub>">
+<img src="/img/posts/2021_09_29_fitness_promoter/Fig4bc.png" width="500" height="300" title="Histogram of f<sub>c</sub>">
 </p>
 <figcaption>Fig. 4B and C fo Vaishnav1 et al. Evolvability archetypes.</figcaption>
 </figure> 
