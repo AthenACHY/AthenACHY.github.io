@@ -232,7 +232,7 @@ Using the autoencoder, there are the robust type (minima, robust and maxima) and
 
 <figure>
 <p align="left">
-<img src="/img/posts/2021_09_29_fitness_promoter/Fig4bc.png" width="500" height="300" title="Histogram of f<sub>c</sub>">
+<img src="/img/posts/2021_09_29_fitness_promoter/Fig4bc.png" width="500" height="200" title="Histogram of f<sub>c</sub>">
 </p>
 <figcaption>Fig. 4B and C fo Vaishnav1 et al. Evolvability archetypes.</figcaption>
 </figure> 
