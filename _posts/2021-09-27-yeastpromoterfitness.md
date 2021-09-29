@@ -228,7 +228,7 @@ Finally, the authors looked into evolability.
 There, they ranked mutations according to the expression change of the single nucleotide mutation neighbors compared to the consensus.
 As explained in the maintext, evolvable promoters can easily change their expression with mutation (thus more extreme differences?) while robust promoter can tolerate many mutations with stable expressions. 
 The authors use these vectors of expression differences derived for each consesnsus sequences to train an autoencoder.
-Using the autoencoder, there are the robust type (minima, robust and maxima) and plastic promoter archetypes.
+Using the autoencoder, they found that there are the robust type (minima, robust and maxima) and plastic promoter archetypes.
 
 <figure>
 <p align="left">
