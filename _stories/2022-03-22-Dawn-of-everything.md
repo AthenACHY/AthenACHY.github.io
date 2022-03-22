@@ -56,9 +56,9 @@ But now, we are getting close to the modern state, where sovereignty and adminis
 
 Personal politics, the third element of modern state, emerged in forms of competitive sports and wars. "Heroes" and warlords living in hillside castles marked the initial forms of monarchy. The praises on male violence in warfare showed signs of patriarchy. Interestingly, the authors argued that the branding of domestic violence as love/protection in western/modern culture had accelerated patriarchy and hence, the degradation of women rights. Such attitude reflect a change of mindset on "ownership". 
 
-### private property 
+### Private property 
 
-Ancient hunter gatherers exchanged luxurious goods mainly for "heroic acts", mainly among tribal chiefs. Due to the nature of moving around, most people have little personal possessions. And usually, there were no system of inheritance, thus no wealth accumulations. But how, precisely did the claims of "owning" became legitimate? 
+Ancient hunter gatherers exchanged luxurious goods mainly for "heroic acts", mainly among tribal chiefs. Due to the nature of moving around, most people have limited personal possessions. And usually, there were no system of inheritance, thus no wealth accumulations. But how, precisely did the claims of "owning" became legitimate? 
 
 
 "Land owning", from a tribal point of view is merely land management; tribes would tend the land with care and focus on replenishment and restoration after use. The authors went further to argue that no one really "own" the land, which provide legitimacy to not only use but also destroy the land. The conceptual changes went hand in hand with salve keeping. "Salve" had no friends because they could not make any decision about themselves. Other than war captives, some tribes actively kidnapped outsiders, who step in for the revered class of warriors from daily chores. 
