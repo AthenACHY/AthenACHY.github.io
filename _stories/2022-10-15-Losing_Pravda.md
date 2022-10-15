@@ -101,7 +101,7 @@ We can draw a lot of parallels in the incidents mentioned in the book with our m
 "Similar to the story I told in this book, the crisis of journalism in the United States has been accompanied by a growing spread of cynicism in American political and public culture. This cynicism is the disappointment and hopelessness many Americans feel at the inability of public institutions, including journalism, to bring about much-needed political and social change. Mounting economic dispossession, growing moral righteousness, and unending political strife have eroded many people’s faith in rationality, modernity, progress, and justice."
 
 
-And worst of all, we normalised lying, and even actively participate in social media to curate a version of our life we like. While drowning in dissatisfaction in reality, we even change edit our life to reformulate a new "narrative" to make us feel better about ourselves. It seems like that we are replacing reality with our preferred delusions. 
+And worst of all, we normalised lying, and even actively participate in social media to curate a version of our life we like. While drowning in dissatisfaction in reality, we even edit our "life story" to reformulate a new "narrative" to make us feel better about ourselves. It seems like that we are replacing reality with our preferred delusions. 
 
 
 But the author believes that "the desire to seek truth is a fundamental part of the human condition.". And only by seeking truth we can build a shared reality with others. And having a sense of togetherness is the key to a better society.
