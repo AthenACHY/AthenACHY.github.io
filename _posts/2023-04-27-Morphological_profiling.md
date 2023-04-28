@@ -48,7 +48,7 @@ In case 1, FD feature overcome the limitation of conventional features, such as 
 </figure>
 
 
-In case 2, using all 17 FD features, the authors could distinguish cells from different drug treatments: one drug Docetaxel (DTX) arrests the microtubule remodeling (lead to cell death) and the other drug Gemcitabine(GCB)interferes  DNA synthesis. Here, FD features (FD and ALS mean) picked up the subtle differences between these 3 groups of cells and we can see quite successful spatial separation in the UMAP in figure 3g. 
+In case 2, using all 17 FD features, the authors could distinguish cells from different drug treatments: one drug Docetaxel (DTX) arrests the microtubule remodeling (lead to cell death) and the other drug Gemcitabine (GCB) interferes DNA synthesis. Here, FD features (FD and ALS mean) picked up the subtle differences between these 3 groups of cells and we can see quite successful spatial separation in the UMAP in figure 3g. 
 
 <figure class="image">
 <img src="/img/posts/2023-04-27-Morphological_profiling/fig3.png" width="700">
@@ -59,6 +59,6 @@ In case 2, using all 17 FD features, the authors could distinguish cells from di
 In case 3, the authors use the up to 101 euclidean + FD features to characterize cell-cycle state of cells. 
 
 ### Conclusion
-Fractal analysis is a useful method to extract local characteristics of cell morphology and will be of particular importance with the advance in image processing technologies and better microscope. 
+Fractal analysis is a useful method to extract local characteristics of cell morphology and will be of particular importance with the advance in image processing technologies and better microscopes. 
 
 
