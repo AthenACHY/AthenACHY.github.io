@@ -217,7 +217,7 @@ Finally, we created a heat map based on the top 2000 perturbed genes and the top
 
 
 ### Comments 
-So,, we explore the concept and codes of FR-perturb, which infer perturbation effects based on pooled screens. 
+So, we explore the concept and codes of FR-perturb, which infer perturbation effects based on pooled screens. 
 Looking into the code, FR-perturb first summarize DE from scRNA-seq datasets to a 20 dimension latent space. Next FR-perturb summarize perturbation into a 20 dimension latent space. Finally, the dot product of the perturbation x 20 PC  . 20PC x gene weight results into the gene x perturbation effect matrix.
 
 The paper's dataset did not have enough power to generate convincing FDR with the q-values. So we can expect that future experiments will still require more cells in the guide-pooled experiments. 
