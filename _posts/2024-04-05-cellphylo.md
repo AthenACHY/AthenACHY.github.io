@@ -12,7 +12,7 @@ Rather than performing the clustering and cell type identification of each speci
 The cell phylogeny constructed identified gene sets that were "ancestral", driving the differentiation in all species investigated, underpinning the basic blueprint for eye construction. 
 
 
-I think the authors have proposed a very interesting methods to perform comparative analyse in scRNA-seq datasets and have set up a banchmark for cleaning and integrating data. Therefore, i spent more time to work out why than how in studying their code. They also have a very clear documentation in [github](https://github.com/dunnlab/cellphylo) and I do appreciated how easy it was to dollow their analyses. 
+I think the authors have proposed a very interesting methods to perform comparative analyse in scRNA-seq datasets and have set up a banchmark for cleaning and integrating data. Therefore, I spent more time to work out why than how in studying their code. They also have a very clear documentation in [github](https://github.com/dunnlab/cellphylo) and I do appreciated how easy it was to dollow their analyses. 
 
 ### Step 1 + 2 cleaning and integrating the datasets
 THe authors reanalysed the datasets from [Zyl et al (2020)](https://doi.org/10.1073/pnas.2001250117) that performed scRNA-seq on the eyes of 5 model organisms. 
