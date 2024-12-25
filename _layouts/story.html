@@ -1,0 +1,53 @@
+---
+layout: default
+title: stories
+description: If books, then those which can be carried in the memory <br/> - Stanisław Barańczak
+background: '/img/20181028_120218.jpg'
+category: stories
+---
+
+{% include site-header.html %}
+
+<main class="main  container">
+<div class="content">
+<article class="article  article--post  typeset">
+   
+{% assign stories = site.stories | sort: 'date' | reverse %}	    
+{% for post in site.stories reversed %}
+ <div class="post">
+ <div class="container"> 
+<div class="content_box">
+   <img src="{{ post.thumbnail }}" align="left" hspace="30" style="max-width:100px;" />
+    <h3> <a font-size:20 href="{{ post.url }}" >{{ post.title }}</a></h3>
+    <p><small class="small  post-meta">
+ 	 {% assign date_format = post.date_format | default: "%d %b %Y" %}
+  	<time datetime="{{ post.date | date_to_xmlschema }}" class="time">{{ post.date | date: date_format }}</time>
+	    </small></p>
+</div>	 
+</div>
+</div>
+    <!-- <h2>
+	<div style="border: 1px solid black">     
+        <a href="{{ post.url }}" ><img src="{{ post.thumbnail }}" align="left" hspace="30" style="max-height:200px;" />
+          
+        
+         <a style="width:700px" font-size:20 href="{{ post.url }}" >{{ post.title }}</a>  		
+	<br>
+	<small class="small  post-meta">
+ 	 {% assign date_format = post.date_format | default: "%d %b %Y" %}
+  	<time datetime="{{ post.date | date_to_xmlschema }}" class="time">{{ post.date | date: date_format }}</time>
+	</small>	
+         </div>
+ </h2>  -->
+	 
+
+	 	
+	
+      
+      
+{% endfor %}
+</article>
+</div>
+</main>
+
+{% include site-footer.html %}
